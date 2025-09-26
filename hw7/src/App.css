@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  margin-top: 24px;
+  border: 1px solid #1B4332;
+  padding-top: 16px;
+  background-color: #4ef58e;
+  color: #1B4332;
+}
+
+.button {
+  background-color: #bbfac4;
+  transition: all 0.2s ease-in-out;
+  padding: 8px;
+  border-radius: 4px;
+  color: #1B4332;
+  border-color: 1px #1B4332;
+}
+
+.button:hover {
+  background-color: #bafaa7;
+}
