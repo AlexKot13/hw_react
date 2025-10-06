@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from "react"
 
 
@@ -5,9 +6,13 @@ const ListItems = () => {
   const [items, setItems] = useState([])
   const [inputValue, setInputValue] = useState('')
 
+  // useEffect(() => {
+  //   console.log('Компонент ListItems обновлен')
+  // }, [items])
+
   useEffect(() => {
-    console.log('Компонент ListItems обновлен')
-  }, [items])
+  console.log('Компонент ListItems смонтирован');
+  }, []);
 
   const addItem = () => {
     if (inputValue.trim() === '') 
