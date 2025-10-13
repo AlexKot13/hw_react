@@ -19,7 +19,7 @@ const DialogBox = ({ open, handleClose }) => {
         <TextField 
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
-        label='Ваше имя'
+        placeholder='Ваше сообщение'
         type='text'
         fullWidth
         variant='outlined'

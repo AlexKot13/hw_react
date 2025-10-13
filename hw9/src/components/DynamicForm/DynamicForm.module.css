@@ -1,0 +1,44 @@
+.form {
+  background-color: rgba(168, 253, 214, 0.15);
+  color: rgb(48, 49, 49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  width: 560px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+input {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.error {
+  color: #d32f2f;
+}
+
+.submitButton {
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgb(148, 67, 137);
+  color: white;
+  font-size: 16px;
+  width: 102px;
+  cursor: pointer;
+  border: none;
+}
+
+.submitButton:hover {
+  background-color: rgb(172, 80, 159); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
