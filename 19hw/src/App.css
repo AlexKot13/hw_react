@@ -1,0 +1,16 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 24px;
+  background-color: #ddf4f7;
+  border-radius: 4px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  margin-top: 24px;
+}
