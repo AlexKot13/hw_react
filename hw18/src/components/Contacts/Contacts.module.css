@@ -1,0 +1,72 @@
+.sectionContacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+.list {
+  padding-left: 1rem;
+}
+
+.infoContacts {
+  color: #8b888880;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.formInput {
+  border: none;
+  border-radius: 8px;
+  background-color: #FAFAFA;
+  padding: 0.5rem;
+}
+
+.message {
+  border: none;
+  border-radius: 8px;
+  background-color: #FAFAFA;
+  padding: 0.5rem;
+  color: rgba(54, 54, 54, 0.541);
+  font-size: 1rem;
+}
+
+.btnWrapper {
+  text-align: right;
+}
+
+.btnForm {
+  background-color: #090D1A;
+  color: white;
+  width: 8rem;
+  border-radius: 12px;
+  border: none;
+}
+
+.containerSocial {
+  background-color: #FAFAFA;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+}
+
+.socialWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.titleSocial {
+  text-align: center;
+  color: rgba(54, 54, 54, 0.541);
+}
